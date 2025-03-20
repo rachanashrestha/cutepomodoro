@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="timer.js" defer></script>
+    <title>Cutie Pomodoro</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="box-1">
+          <div class="box-1-2">
+          <div class = "sprout-images">
+            <img src="./images/image-1.png">
+          </div>
+                <div class="time">
+                    <span id="minutes">25</span>:<span id="seconds">00</span>
+                </div>
+                <div class="buttons">
+                    <button id="start" >Start</button>
+                    <button id="pause">Pause</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="box-2">
+          <div class="box-2-1">
+          <div class="snake-images">
+            <img src="./images/—Pngtree—sprouting sprouting animal cartoon cute_3934178.png" alt="cute snake">
+          </div>
+            <div class="motivation" >
+                <p id="motivation">Break down your work into intervals, traditionally 25 minutes in length, separated by short breaks. This method is based on the idea that frequent breaks can improve mental agility.</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+  </body>
+</html>
